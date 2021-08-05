@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(to right, #64C9CF, #FFB740);
+}
+
+
+#demo {
+    text-align: center;
+    margin-top: 300px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    transition: transform 1s;
+}
+
+#demo:hover {
+    transform: scale(1.25);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: rotate(360deg);
+    transition: transform 2s, color 2s;
+}
+
+h1:hover {
+    transform: scale(1.7);
+    color: #FF4848;
+}
